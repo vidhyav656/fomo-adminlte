@@ -1,0 +1,900 @@
+// 20181114021150
+// https://fomominers.com/api/stats
+
+{
+  "time": 1542141699,
+  "global": {
+    "workers": 36,
+    "hashrate": 0
+  },
+  "algos": {
+    "equihash": {
+      "workers": 36,
+      "hashrate": 4067667956.3978767,
+      "hashrateString": "8.14 KSol/s"
+    }
+  },
+  "pools": {
+    "bitcoinz": {
+      "name": "bitcoinz",
+      "symbol": "BTCZ",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "535979",
+        "validBlocks": "14",
+        "invalidShares": "27960",
+        "totalPaid": "173250.05755983999999614",
+        "networkBlocks": "245783",
+        "networkSols": "273854",
+        "networkSolsString": "273.85 KSol/s",
+        "networkDiff": "5940.70114634493",
+        "networkConnections": "8",
+        "networkVersion": "/KSC:1.4.0-1/",
+        "networkProtocolVersion": "770005"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 14,
+        "orphaned": 0
+      },
+      "maxRoundTime": 876655.902,
+      "shareCount": 33206.9947309,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "10d 3h 30m 56s"
+    },
+    "btcprivate": {
+      "name": "btcprivate",
+      "symbol": "BTCP",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "634420",
+        "validBlocks": "12",
+        "invalidShares": "1200",
+        "totalPaid": "18.44465319",
+        "networkBlocks": "425397",
+        "networkSols": "4547172",
+        "networkSolsString": "4.55 MSol/s",
+        "networkDiff": "102114.1419685393",
+        "networkConnections": "8",
+        "networkVersion": "/BTCP:1.0.12-1/",
+        "networkProtocolVersion": "180004"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 12,
+        "orphaned": 0
+      },
+      "maxRoundTime": 1231866.3939999999,
+      "shareCount": 244818.37815508002,
+      "workers": {
+        "b1A34b3w6eUo8b3ZcjE9LofW7hvRe8eTtDM.miningcomputer1": {
+          "name": "b1A34b3w6eUo8b3ZcjE9LofW7hvRe8eTtDM.miningcomputer1",
+          "diff": 711,
+          "shares": 15.367857620000002,
+          "invalidshares": 0.07243959,
+          "currRoundShares": 57666.99821583,
+          "currRoundTime": 1231866.3939999999,
+          "hashrate": 91672841.510395,
+          "hashrateString": "183.35 Sol/s",
+          "luckDays": "55.114",
+          "luckHours": "1322.725",
+          "paid": 0,
+          "balance": 0
+        }
+      },
+      "hashrate": 91672841.510395,
+      "hashrateString": "183.35 Sol/s",
+      "luckDays": "55.114",
+      "luckHours": "1322.725",
+      "minerCount": 1,
+      "workerCount": 1,
+      "maxRoundTimeString": "14d 6h 11m 6s"
+    },
+    "genesis": {
+      "name": "genesis",
+      "symbol": "GENX",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "8204406",
+        "validBlocks": "3972",
+        "invalidShares": "202486",
+        "totalPaid": "2024844.71821491999935461",
+        "networkBlocks": "126734",
+        "networkSols": "41232.93717205192",
+        "networkSolsString": "41.23 KSol/s",
+        "networkDiff": "4807.030948788775",
+        "networkConnections": "8",
+        "networkVersion": "/LoBeMoJaScKrKa:2.0.1/",
+        "networkProtocolVersion": "70020"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 1,
+        "confirmed": 3947,
+        "orphaned": 24
+      },
+      "maxRoundTime": 4409.352,
+      "shareCount": 611.9386635699999,
+      "workers": {
+        "SauTnYtYg3d4RcckaV79aKNKrWQd7YSeH1.noname": {
+          "name": "SauTnYtYg3d4RcckaV79aKNKrWQd7YSeH1.noname",
+          "diff": 2048,
+          "shares": 1.75,
+          "invalidshares": 0,
+          "currRoundShares": 8.49890279,
+          "currRoundTime": 3403.726,
+          "hashrate": 10439156.622222222,
+          "hashrateString": "20.88 Sol/s",
+          "luckDays": "4.389",
+          "luckHours": "105.329",
+          "paid": 0,
+          "balance": 0
+        },
+        "SbREk4swf7TyJxA9eqmuWooCCRaD5Scq5W.3rx": {
+          "name": "SbREk4swf7TyJxA9eqmuWooCCRaD5Scq5W.3rx",
+          "diff": 318,
+          "shares": 5.140702530000013,
+          "invalidshares": 0,
+          "currRoundShares": 26.05288642,
+          "currRoundTime": 4400.265,
+          "hashrate": 30665485.06224238,
+          "hashrateString": "61.33 Sol/s",
+          "luckDays": "1.494",
+          "luckHours": "35.856",
+          "paid": 0,
+          "balance": 0
+        },
+        "SipwYqnFXqYsbYCenVBCvZURo5XdcQDYD3.Galactica": {
+          "name": "SipwYqnFXqYsbYCenVBCvZURo5XdcQDYD3.Galactica",
+          "diff": 2048,
+          "shares": 13.25,
+          "invalidshares": 1,
+          "currRoundShares": 79,
+          "currRoundTime": 4409.352,
+          "hashrate": 79039328.71111111,
+          "hashrateString": "158.08 Sol/s",
+          "luckDays": "0.580",
+          "luckHours": "13.911",
+          "paid": 0,
+          "balance": 0
+        },
+        "SipwYqnFXqYsbYCenVBCvZURo5XdcQDYD3.Pegasus": {
+          "name": "SipwYqnFXqYsbYCenVBCvZURo5XdcQDYD3.Pegasus",
+          "diff": 2048,
+          "shares": 8.75,
+          "invalidshares": 0.25,
+          "currRoundShares": 47.75,
+          "currRoundTime": 4409.352,
+          "hashrate": 52195783.11111111,
+          "hashrateString": "104.39 Sol/s",
+          "luckDays": "0.878",
+          "luckHours": "21.066",
+          "paid": 0,
+          "balance": 0
+        },
+        "SSs1KWpf7pt6E8p42zUNNkSxdtWDQnAMTx.HonkyKONG2": {
+          "name": "SSs1KWpf7pt6E8p42zUNNkSxdtWDQnAMTx.HonkyKONG2",
+          "diff": 891,
+          "shares": 14.220073979999961,
+          "invalidshares": 0,
+          "currRoundShares": 95.47381859,
+          "currRoundTime": 4402.014,
+          "hashrate": 84826045.40388943,
+          "hashrateString": "169.65 Sol/s",
+          "luckDays": "0.540",
+          "luckHours": "12.962",
+          "paid": 0,
+          "balance": 0
+        },
+        "SSs1KWpf7pt6E8p42zUNNkSxdtWDQnAMTx.HonkyKONG3": {
+          "name": "SSs1KWpf7pt6E8p42zUNNkSxdtWDQnAMTx.HonkyKONG3",
+          "diff": 676,
+          "shares": 12.267611230000004,
+          "invalidshares": 0,
+          "currRoundShares": 77.84737519,
+          "currRoundTime": 4402.014,
+          "hashrate": 73179151.43457271,
+          "hashrateString": "146.36 Sol/s",
+          "luckDays": "0.626",
+          "luckHours": "15.025",
+          "paid": 0,
+          "balance": 0
+        },
+        "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A1A3": {
+          "name": "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A1A3",
+          "diff": 371,
+          "shares": 5.718843970000014,
+          "invalidshares": 0,
+          "currRoundShares": 32.74182388,
+          "currRoundTime": 4398.334,
+          "hashrate": 34114233.08621787,
+          "hashrateString": "68.23 Sol/s",
+          "luckDays": "1.343",
+          "luckHours": "32.231",
+          "paid": 0,
+          "balance": 0
+        },
+        "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A1B2": {
+          "name": "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A1B2",
+          "diff": 569,
+          "shares": 10.676237620000004,
+          "invalidshares": 0.0694938,
+          "currRoundShares": 73.77013279,
+          "currRoundTime": 4398.334,
+          "hashrate": 63686238.086423464,
+          "hashrateString": "127.37 Sol/s",
+          "luckDays": "0.719",
+          "luckHours": "17.265",
+          "paid": 0,
+          "balance": 0
+        },
+        "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A2A3": {
+          "name": "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A2A3",
+          "diff": 916,
+          "shares": 12.453679629999973,
+          "invalidshares": 0,
+          "currRoundShares": 71.91398784,
+          "currRoundTime": 4398.334,
+          "hashrate": 74289092.67459898,
+          "hashrateString": "148.58 Sol/s",
+          "luckDays": "0.617",
+          "luckHours": "14.801",
+          "paid": 0,
+          "balance": 0
+        },
+        "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A3A2": {
+          "name": "SVdY34XLEPhwoEiSgwuLcBbmUCpfpo4jnn.A3A2",
+          "diff": 1096,
+          "shares": 11.402823949999961,
+          "invalidshares": 0,
+          "currRoundShares": 69.95668431,
+          "currRoundTime": 4398.334,
+          "hashrate": 68020494.37124357,
+          "hashrateString": "136.04 Sol/s",
+          "luckDays": "0.674",
+          "luckHours": "16.165",
+          "paid": 0,
+          "balance": 0
+        },
+        "SYAJR1FU7bd6Y1JPKqkGoWYmh2jZM5SAhL.noname": {
+          "name": "SYAJR1FU7bd6Y1JPKqkGoWYmh2jZM5SAhL.noname",
+          "diff": 224,
+          "shares": 3.9774768000000025,
+          "invalidshares": 0,
+          "currRoundShares": 28.93305176,
+          "currRoundTime": 4395.461,
+          "hashrate": 23726573.30083159,
+          "hashrateString": "47.45 Sol/s",
+          "luckDays": "1.931",
+          "luckHours": "46.342",
+          "paid": 0,
+          "balance": 0
+        }
+      },
+      "hashrate": 594181581.8644677,
+      "hashrateString": "1.19 KSol/s",
+      "luckDays": "0.077",
+      "luckHours": "1.851",
+      "minerCount": 6,
+      "workerCount": 11,
+      "maxRoundTimeString": "1h 13m 29s"
+    },
+    "komodo": {
+      "name": "komodo",
+      "symbol": "KMD",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "1055523",
+        "validBlocks": "59",
+        "invalidShares": "10856",
+        "totalPaid": "194.96881888000000001",
+        "networkBlocks": "1095926",
+        "networkSols": "19220357",
+        "networkSolsString": "19.22 MSol/s",
+        "networkDiff": "71015262.93713972",
+        "networkConnections": "8",
+        "networkVersion": "/MagicBean:1.0.15/",
+        "networkProtocolVersion": "170003"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 59,
+        "orphaned": 0
+      },
+      "maxRoundTime": 50159.169,
+      "shareCount": 792221.5181769399,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "13h 55m 59s"
+    },
+    "safecoin": {
+      "name": "safecoin",
+      "symbol": "SAFE",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "392538",
+        "validBlocks": "70",
+        "invalidShares": "5858",
+        "totalPaid": "972.30540744000000009",
+        "networkBlocks": "386574",
+        "networkSols": "59684",
+        "networkSolsString": "59.68 KSol/s",
+        "networkDiff": "228348.3232182009",
+        "networkConnections": "8",
+        "networkVersion": "/MagicBean:1.1.0-1/",
+        "networkProtocolVersion": "170018"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 70,
+        "orphaned": 0
+      },
+      "maxRoundTime": 14490.675,
+      "shareCount": 183.17888828,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "4h 1m 31s"
+    },
+    "snowgem": {
+      "name": "snowgem",
+      "symbol": "XSG",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "11041",
+        "validBlocks": "2",
+        "invalidShares": "2399",
+        "totalPaid": "17.5821298",
+        "networkBlocks": "464480",
+        "networkSols": "47902",
+        "networkSolsString": "47.90 KSol/s",
+        "networkDiff": "435.2185115648641",
+        "networkConnections": "30",
+        "networkVersion": "/MagicBean:2.0.4-8/",
+        "networkProtocolVersion": "170006"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 2,
+        "orphaned": 0
+      },
+      "maxRoundTime": 1840.735,
+      "shareCount": 51.77362178,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "30m 41s"
+    },
+    "zcash": {
+      "name": "zcash",
+      "symbol": "ZEC",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "280640",
+        "validBlocks": 0,
+        "invalidShares": "5849",
+        "totalPaid": 0,
+        "networkBlocks": "428249",
+        "networkSols": "2240153169",
+        "networkSolsString": "2.24 GSol/s",
+        "networkDiff": "49065259.38089952",
+        "networkConnections": "8",
+        "networkVersion": "/MagicBean:2.0.0/",
+        "networkProtocolVersion": "170007"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 0,
+        "orphaned": 0
+      },
+      "maxRoundTime": 164042.85,
+      "shareCount": 1571298.8767504802,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "1d 21h 34m 3s"
+    },
+    "zclassic": {
+      "name": "zclassic",
+      "symbol": "ZCL",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "7010",
+        "validBlocks": 0,
+        "invalidShares": "43",
+        "totalPaid": 0,
+        "networkBlocks": "418611",
+        "networkSols": "54386499",
+        "networkSolsString": "54.39 MSol/s",
+        "networkDiff": "1028055.557177907",
+        "networkConnections": "8",
+        "networkVersion": "/NTwoR:1.0.10-1/",
+        "networkProtocolVersion": "170002"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 0,
+        "orphaned": 0
+      },
+      "maxRoundTime": 45384.56,
+      "shareCount": 29210.17559738,
+      "workers": {
+        
+      },
+      "hashrate": 0,
+      "hashrateString": "0.00 Sol/s",
+      "luckDays": "Infinity",
+      "luckHours": "Infinity",
+      "minerCount": 0,
+      "workerCount": 0,
+      "maxRoundTimeString": "12h 36m 25s"
+    },
+    "zelcash": {
+      "name": "zelcash",
+      "symbol": "ZEL",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "43361871",
+        "validBlocks": "1224",
+        "invalidShares": "905636",
+        "totalPaid": "180130.70103096000002552",
+        "networkBlocks": "206859",
+        "networkSols": "650950",
+        "networkSolsString": "650.95 KSol/s",
+        "networkDiff": "9779.735498330087",
+        "networkConnections": "8",
+        "networkVersion": "/MagicBean:1.1.0/",
+        "networkProtocolVersion": "170003"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 0,
+        "confirmed": 1213,
+        "orphaned": 11
+      },
+      "maxRoundTime": 21397.3,
+      "shareCount": 15977.08307165,
+      "workers": {
+        "t1anM4W9W3dhTxsbQhGhF6xk2UmsPpppffo.TurtlePower": {
+          "name": "t1anM4W9W3dhTxsbQhGhF6xk2UmsPpppffo.TurtlePower",
+          "diff": 1630,
+          "shares": 16.02441126000001,
+          "invalidshares": 0,
+          "currRoundShares": 510.09981723,
+          "currRoundTime": 21397.3,
+          "hashrate": 95589336.52688083,
+          "hashrateString": "191.18 Sol/s",
+          "luckDays": "7.567",
+          "luckHours": "181.596",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C01": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C01",
+          "diff": 1325,
+          "shares": 25.29423211000001,
+          "invalidshares": 0,
+          "currRoundShares": 687.04427808,
+          "currRoundTime": 21363.124,
+          "hashrate": 150885971.79150432,
+          "hashrateString": "301.77 Sol/s",
+          "luckDays": "4.794",
+          "luckHours": "115.045",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C02": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C02",
+          "diff": 1350,
+          "shares": 19.004967909999994,
+          "invalidshares": 0,
+          "currRoundShares": 554.471682,
+          "currRoundTime": 21363.124,
+          "hashrate": 113369049.493027,
+          "hashrateString": "226.74 Sol/s",
+          "luckDays": "6.380",
+          "luckHours": "153.116",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C04": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C04",
+          "diff": 977,
+          "shares": 25.069829410000025,
+          "invalidshares": 0.14412307,
+          "currRoundShares": 700.29510014,
+          "currRoundTime": 21363.124,
+          "hashrate": 149547357.5447904,
+          "hashrateString": "299.09 Sol/s",
+          "luckDays": "4.836",
+          "luckHours": "116.075",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C05": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C05",
+          "diff": 8192,
+          "shares": 15,
+          "invalidshares": 0,
+          "currRoundShares": 640,
+          "currRoundTime": 21363.124,
+          "hashrate": 89478485.33333333,
+          "hashrateString": "178.96 Sol/s",
+          "luckDays": "8.083",
+          "luckHours": "193.998",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C06": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C06",
+          "diff": 8192,
+          "shares": 12,
+          "invalidshares": 0,
+          "currRoundShares": 574,
+          "currRoundTime": 21363.124,
+          "hashrate": 71582788.26666667,
+          "hashrateString": "143.17 Sol/s",
+          "luckDays": "10.104",
+          "luckHours": "242.498",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C07": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C07",
+          "diff": 8192,
+          "shares": 17,
+          "invalidshares": 0,
+          "currRoundShares": 577,
+          "currRoundTime": 21363.124,
+          "hashrate": 101408950.04444444,
+          "hashrateString": "202.82 Sol/s",
+          "luckDays": "7.132",
+          "luckHours": "171.175",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C09": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C09",
+          "diff": 753,
+          "shares": 17.54186924000002,
+          "invalidshares": 0.12095404,
+          "currRoundShares": 554.58852803,
+          "currRoundTime": 21363.124,
+          "hashrate": 104641325.96737285,
+          "hashrateString": "209.28 Sol/s",
+          "luckDays": "6.912",
+          "luckHours": "165.887",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C10": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C10",
+          "diff": 739,
+          "shares": 17.520099390000023,
+          "invalidshares": 0.03977848,
+          "currRoundShares": 557.28390877,
+          "currRoundTime": 21363.124,
+          "hashrate": 104511463.7537773,
+          "hashrateString": "209.02 Sol/s",
+          "luckDays": "6.921",
+          "luckHours": "166.093",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C11": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C11",
+          "diff": 8192,
+          "shares": 25,
+          "invalidshares": 0,
+          "currRoundShares": 563,
+          "currRoundTime": 21363.124,
+          "hashrate": 149130808.8888889,
+          "hashrateString": "298.26 Sol/s",
+          "luckDays": "4.850",
+          "luckHours": "116.399",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C12": {
+          "name": "t1cFxELwdYZN2izH41Z9qCDJEPpJRqVwhPw.C12",
+          "diff": 8192,
+          "shares": 16,
+          "invalidshares": 0,
+          "currRoundShares": 505,
+          "currRoundTime": 21363.124,
+          "hashrate": 95443717.68888889,
+          "hashrateString": "190.89 Sol/s",
+          "luckDays": "7.578",
+          "luckHours": "181.873",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1eEDWYvJvesghDJdkdC2FTJpreu58yqf6q.RigJamesBitch": {
+          "name": "t1eEDWYvJvesghDJdkdC2FTJpreu58yqf6q.RigJamesBitch",
+          "diff": 141,
+          "shares": 4.086702509999997,
+          "invalidshares": 0,
+          "currRoundShares": 117.96296452,
+          "currRoundTime": 21361.062,
+          "hashrate": 24378130.04018208,
+          "hashrateString": "48.76 Sol/s",
+          "luckDays": "29.669",
+          "luckHours": "712.059",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1fA1Cvasn9rGjuu15cbCjCYjUjJiRe1QiC.noname": {
+          "name": "t1fA1Cvasn9rGjuu15cbCjCYjUjJiRe1QiC.noname",
+          "diff": 8192,
+          "shares": 12,
+          "invalidshares": 0,
+          "currRoundShares": 456.43352963,
+          "currRoundTime": 21336.769,
+          "hashrate": 71582788.26666667,
+          "hashrateString": "143.17 Sol/s",
+          "luckDays": "10.104",
+          "luckHours": "242.498",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1fVrWDJ1bGNPv43mDXbjrEcPe9vedbSpBC.felunk": {
+          "name": "t1fVrWDJ1bGNPv43mDXbjrEcPe9vedbSpBC.felunk",
+          "diff": 8192,
+          "shares": 113,
+          "invalidshares": 0,
+          "currRoundShares": 3480,
+          "currRoundTime": 21363.181,
+          "hashrate": 674071256.1777778,
+          "hashrateString": "1.35 KSol/s",
+          "luckDays": "1.073",
+          "luckHours": "25.752",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1g2XvN8kFKWJG6yHynHFjdgRppmz1AcTLh.Hahn01": {
+          "name": "t1g2XvN8kFKWJG6yHynHFjdgRppmz1AcTLh.Hahn01",
+          "diff": 8192,
+          "shares": 18,
+          "invalidshares": 0,
+          "currRoundShares": 342,
+          "currRoundTime": 21278.119,
+          "hashrate": 107374182.4,
+          "hashrateString": "214.75 Sol/s",
+          "luckDays": "6.736",
+          "luckHours": "161.665",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1HtEKv7EQV3aigE5R9JbQaKJ6zwJ1MmC7S.asus2": {
+          "name": "t1HtEKv7EQV3aigE5R9JbQaKJ6zwJ1MmC7S.asus2",
+          "diff": 1192,
+          "shares": 11.754949740000008,
+          "invalidshares": 0.14727873,
+          "currRoundShares": 389.26882754,
+          "currRoundTime": 21360.672,
+          "hashrate": 70121006.5269774,
+          "hashrateString": "140.24 Sol/s",
+          "luckDays": "10.315",
+          "luckHours": "247.553",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1LRDg86nypwbtJbvNgCRKrtpv8yHxoo5k6.am1": {
+          "name": "t1LRDg86nypwbtJbvNgCRKrtpv8yHxoo5k6.am1",
+          "diff": 710,
+          "shares": 18.506366369999988,
+          "invalidshares": 0,
+          "currRoundShares": 537.0005862,
+          "currRoundTime": 21359.974,
+          "hashrate": 110394775.45408915,
+          "hashrateString": "220.79 Sol/s",
+          "luckDays": "6.552",
+          "luckHours": "157.242",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1TdJc9eWZNG5DAZQnWMBgkCNUuqxu2uvHi.RoboArmy": {
+          "name": "t1TdJc9eWZNG5DAZQnWMBgkCNUuqxu2uvHi.RoboArmy",
+          "diff": 1366,
+          "shares": 72.95485160000001,
+          "invalidshares": 0,
+          "currRoundShares": 2408.63384951,
+          "currRoundTime": 21355.003,
+          "hashrate": 435192641.2590741,
+          "hashrateString": "870.39 Sol/s",
+          "luckDays": "1.662",
+          "luckHours": "39.887",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1YVuQUFfWiYktTFMr6yBAmqYkUiuj4bM9Q.HonkyKONG1": {
+          "name": "t1YVuQUFfWiYktTFMr6yBAmqYkUiuj4bM9Q.HonkyKONG1",
+          "diff": 8192,
+          "shares": 21,
+          "invalidshares": 0,
+          "currRoundShares": 695,
+          "currRoundTime": 21343.75,
+          "hashrate": 125269879.46666667,
+          "hashrateString": "250.54 Sol/s",
+          "luckDays": "5.774",
+          "luckHours": "138.570",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1ZegyXJS6o1Kp8MpPSmfDj8cw2ADU5erNm.BuckyRig": {
+          "name": "t1ZegyXJS6o1Kp8MpPSmfDj8cw2ADU5erNm.BuckyRig",
+          "diff": 8192,
+          "shares": 30,
+          "invalidshares": 0,
+          "currRoundShares": 784,
+          "currRoundTime": 21331.983,
+          "hashrate": 178956970.66666666,
+          "hashrateString": "357.91 Sol/s",
+          "luckDays": "4.042",
+          "luckHours": "96.999",
+          "paid": 0,
+          "balance": 0
+        }
+      },
+      "hashrate": 3022930885.557693,
+      "hashrateString": "6.05 KSol/s",
+      "luckDays": "0.239",
+      "luckHours": "5.742",
+      "minerCount": 11,
+      "workerCount": 20,
+      "maxRoundTimeString": "5h 56m 37s"
+    },
+    "zero": {
+      "name": "zero",
+      "symbol": "ZER",
+      "algorithm": "equihash",
+      "poolStats": {
+        "validShares": "5301877",
+        "validBlocks": "900",
+        "invalidShares": "89500",
+        "totalPaid": "8758.04347684999999935",
+        "networkBlocks": "454768",
+        "networkSols": "98572",
+        "networkSolsString": "98.57 KSol/s",
+        "networkDiff": "461443.9886685552",
+        "networkConnections": "8",
+        "networkVersion": "/Uummannaq:1.0.14/",
+        "networkProtocolVersion": "170002"
+      },
+      "marketStats": {
+        
+      },
+      "blocks": {
+        "pending": 5,
+        "confirmed": 883,
+        "orphaned": 12
+      },
+      "maxRoundTime": 1721.033,
+      "shareCount": 144.79560517,
+      "workers": {
+        "t1N9RsJ6TkMrc6b88ToigcwMXrp98MeJwix.RS": {
+          "name": "t1N9RsJ6TkMrc6b88ToigcwMXrp98MeJwix.RS",
+          "diff": 386,
+          "shares": 10.162392020000008,
+          "invalidshares": 0.07590353,
+          "currRoundShares": 23.29560517,
+          "currRoundTime": 1704.873,
+          "hashrate": 60621029.68754362,
+          "hashrateString": "121.24 Sol/s",
+          "luckDays": "1.807",
+          "luckHours": "43.361",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1Pead3HPrUbxHw3TcduY5aiEs73JSwpQq3.1111": {
+          "name": "t1Pead3HPrUbxHw3TcduY5aiEs73JSwpQq3.1111",
+          "diff": 2048,
+          "shares": 20.5,
+          "invalidshares": 0,
+          "currRoundShares": 48.25,
+          "currRoundTime": 1721.033,
+          "hashrate": 122287263.28888889,
+          "hashrateString": "244.57 Sol/s",
+          "luckDays": "0.896",
+          "luckHours": "21.495",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1Pead3HPrUbxHw3TcduY5aiEs73JSwpQq3.2222": {
+          "name": "t1Pead3HPrUbxHw3TcduY5aiEs73JSwpQq3.2222",
+          "diff": 2048,
+          "shares": 24.75,
+          "invalidshares": 0,
+          "currRoundShares": 58.5,
+          "currRoundTime": 1721.033,
+          "hashrate": 147639500.8,
+          "hashrateString": "295.28 Sol/s",
+          "luckDays": "0.742",
+          "luckHours": "17.804",
+          "paid": 0,
+          "balance": 0
+        },
+        "t1T2sf51pq5JHwNK1HuCfAfaHNwcgNSGT6M.B1A1": {
+          "name": "t1T2sf51pq5JHwNK1HuCfAfaHNwcgNSGT6M.B1A1",
+          "diff": 2048,
+          "shares": 4.75,
+          "invalidshares": 0,
+          "currRoundShares": 14.75,
+          "currRoundTime": 1682.937,
+          "hashrate": 28334853.68888889,
+          "hashrateString": "56.67 Sol/s",
+          "luckDays": "3.865",
+          "luckHours": "92.769",
+          "paid": 0,
+          "balance": 0
+        }
+      },
+      "hashrate": 358882647.465321,
+      "hashrateString": "717.77 Sol/s",
+      "luckDays": "0.305",
+      "luckHours": "7.324",
+      "minerCount": 3,
+      "workerCount": 4,
+      "maxRoundTimeString": "28m 41s"
+    }
+  }
+}
+}

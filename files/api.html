@@ -1,0 +1,40 @@
+---
+layout: default
+title: API
+permalink: /api/
+---
+   <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        API<small>- The API is work in progress and is subject to change during development.</small>
+      </h1>      
+    </section>
+
+    <!-- Main content -->
+    <section class="content">    
+      <!-- /.row -->
+      <!-- Main row -->
+          <!-- TO DO List -->
+          <div class="box box-primary">            
+            <!-- /.box-header -->
+            <div class="box-body">
+              <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+              <ul class="todo-list">
+                <li>
+                  <a class="text" href="{{ site.baseurl }}/files/api/stats.json">/stats</a> global pool stats
+                </li>
+                <li><a class="text" href="{{ site.baseurl }}/files/api/blocks.json">/stats</a> global block stats</li>
+                <li><a class="text" href="{{ site.baseurl }}/files/api/pool_stats.json ">/pool_stats</a> - historical stats</li>
+                <li><a  class="text" href="{{ site.baseurl }}/files/api/payments.json">/payments</a> - payment history</li>
+                <li><a  class="text" href="{{ site.baseurl }}/files/api/worker_stats.json">/worker_stats?taddr</a> - historical time per pool json </li>
+                <li><a class="text" href="{{ site.baseurl }}/files/api/live_stats.json">/live_stats</a> - live stats </li>
+                                 
+              </ul>
+            </div>
+            <!-- /.box-body -->            
+          </div>
+          <!-- /.box -->
+        </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
